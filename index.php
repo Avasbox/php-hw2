@@ -1,5 +1,5 @@
 <?php
-
+/*
 echo 'Задание 1 <br />';
 
 $a = array (1, 3, -3, 0, null, true, '', '0');
@@ -36,7 +36,7 @@ if ($a <= 1 && $b >= 3) {
 echo '<hr />';
 echo 'Задание 4 <br />';
 
-$a = 'abcde';
+$a = 'abide';
 $b = $a[0] == 'a' ? 'да' : 'нет';
 echo $b;
 
@@ -124,4 +124,20 @@ for ($i = 0; $i <= $v; $i++) {
     }
     echo '<br />';
 }
+
+$arr = [74, 12, 37, 25, 44];
+function min2($arg) {
+    $min = $arg[0];
+    for($i = 0; $i < count($arg); $i++) {
+        if($min > $arg[$i]) {
+            $min =$arg[$i];
+        }
+    }
+    return($min);
+}
+
+var_dump(min2($arr));
+
+*/
+
 
